@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id ="@+id/layout1"
+    android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	
+<TextView  
+	android:id="@+id/tv"
+    android:layout_width="fill_parent" 
+    android:layout_below="@+id/layout1"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:textColor="#ffffff"
+    android:layout_height="wrap_content" 
+    android:text="@string/display_contacts"
+    />
+    
+<ListView android:id="@+id/list"  
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:layout_marginTop="10dp"
+    android:layout_below = "@+id/tv"
+      />
+  
+      
+</RelativeLayout>

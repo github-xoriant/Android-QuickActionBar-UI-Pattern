@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <style name="Animations" />
+
+        <style name="Animations.GrowFromBottom">
+                <item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item>
+                <item name="@android:windowExitAnimation">@anim/shrink_from_top</item>
+        </style>
+
+        <style name="Animations.GrowFromTop">
+                <item name="@android:windowEnterAnimation">@anim/grow_from_top</item>
+                <item name="@android:windowExitAnimation">@anim/shrink_from_bottom</item>
+        </style>
+
+        <style name="Animations.PopDownMenu">
+                <item name="@android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+                <item name="@android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+        </style>
+        
+        <style name="Animations.PopUpMenu">
+                <item name="@android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+                <item name="@android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+        </style>
+        
+<!-- Similarly more styles can be written for more animations movements by including styles in this file -->        
+        
+</resources>
